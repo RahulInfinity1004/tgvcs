@@ -17,7 +17,7 @@ python manage.py startapp tracking
 
 ### Update `settings.py`:
 - Add `tracking` to `INSTALLED_APPS`.
-- Configure your database with PostgreSQL or SQLite for development.
+- Configure your database with Postgre SQL or SQLite for development.
 
 ---
 
@@ -105,3 +105,7 @@ python manage.py migrate
 ---
 
 By following these steps, you can build a version control system similar to GitHub but tailored to your needs. Let me know if you'd like to expand on any section or need help implementing specific features!
+
+## Update
+As far I created telegram bot which can read message and reply to it,
+and then I created GitHub script which commits file
